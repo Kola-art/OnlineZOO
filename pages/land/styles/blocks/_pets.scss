@@ -1,0 +1,194 @@
+.pets {
+    padding: 100px 0;
+    text-align: center;
+    &__title {
+        h2 {
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            color: $titleonwhite;
+            margin: 0;
+        }
+    }
+    &__slider {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &_slide {
+            overflow: hidden;
+            width: 278px;
+            height: 400px;
+            position: relative;
+            z-index: 3;
+            img {
+                width: 100%
+            }
+            .towatch__card {
+                position: absolute;
+                bottom: -95px;
+                left: 22px;
+                transition: 1s;
+                text-align: left;
+                .towatch__card_text {
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                    width: 190px;
+                    margin: 0;
+                }
+                .towatch__card_links {
+                    width: 240px;
+                    margin-top: 14px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                    }
+                    .watchLink {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    position: relative;
+                    }
+                    .watchLink::before {
+                        content: url('../../../assets/icons/smalPlay.svg');
+                        position:absolute;
+                        top: -6px;
+                        left: -30px;
+                    }
+                    .donateLink {
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        position: relative;
+                    }
+                    .donateLink::before {
+                        position:absolute;
+                        top: -6px;
+                        left: -30px;
+                        content: url('../../../assets/icons/smallDonate.svg');
+                    }
+                }
+            }
+            
+        }
+        &_slide:hover {
+            .towatch__card {
+                &_img {
+                    filter: brightness(30%);
+                }
+                bottom: 45px;
+                display: block;
+                .watchLink:hover {
+                    color:#4BD8B5;
+                    &::before{
+                    content: url('../../../assets/icons/smalPlayhover.svg');
+                    }
+                }
+                .donateLink:hover {
+                    color:#4BD8B5;
+                    &::before{
+                    content: url('../../../assets/icons/smallDonatehover.svg');
+                    }
+                }
+            }
+        }
+        &_btnPrev {
+            position: absolute;
+            top: 200px;
+            left: -40px;
+        }
+        &_btnPrev:hover {
+            cursor: pointer;
+            svg path{
+                fill: #333333;
+            }
+        }
+        &_btnNext {
+            position: absolute;
+            top: 200px;
+            right: -40px;
+            
+        }
+        &_btnNext:hover {
+            cursor: pointer;
+            svg path{
+                fill: #333333;
+            }
+        }
+    }
+    .slider__roller {
+        margin: 30px auto 0 auto;
+        text-align: center;
+        &_text {
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 900;
+            color: $titleonwhite;
+            p {  
+                margin: 0;
+            }    
+            span {
+                color: #828282;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        &_hr {
+            margin: 11px auto 0 auto;
+            width:245px;
+            height:5px;
+            background-color:rgba(189, 189, 189, 0.57);
+            position: relative;
+            cursor: pointer;
+            span {
+                width: 30px;
+                height: 10px;
+                background-color:#333333;
+                position: absolute;
+                top: -3px;
+                left: 0px;
+            }
+        }
+    }
+    &_btn {
+        margin-top: 30px;
+        &_click {
+            width: 245px;
+            height: 55px;
+            background-color: #4BD8B5;
+            border:none;
+            padding: 0;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        &_link {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        .btn_text {
+            margin: 0;
+            font-weight: 900;
+            font-size: 17px;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_click:hover {
+            background-color: #4ba0d8;
+        }
+    }
+}

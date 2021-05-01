@@ -1,0 +1,78 @@
+.feed{
+    padding: 100px 0;
+    background-color: $graylight-color;
+    &__title{
+        text-align: center;
+        &_heading{
+            margin: 0;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 56px;
+            color: $titleonwhite;
+        }
+        &_text{
+            margin:30px 0 0 0;
+            font-size: 14px;
+            line-height: 16px;
+            color: $textonwhite;
+        }
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+        position: relative;
+        &_arr{
+            position: absolute;
+            top: 122px;
+            left: 303px;
+        }
+        &_arr2{
+            position: absolute;
+            top: 122px;
+            right: 303px;
+        }
+        &_card{
+            width: 245px;
+            height: 245px;
+            border: 2px solid #4BD8B5;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                margin: 18px 0 0 0;
+                width: 160px;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                color: $textonwhite;
+            }
+        }
+    }
+    &_btn_click{
+        margin: 45px auto 0 auto;
+        display: block;
+        width: 245px;
+        height: 55px;
+        background-color: #4BD8B5;
+        border:none;
+        padding: 0;
+        cursor: pointer;
+        border-radius: 3px;
+        .btn_text{
+            margin: 0;
+            font-weight: 900;
+            font-size: 17px;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    &_btn_click:hover{
+        background-color: #4ba0d8;
+    }
+}

@@ -1,0 +1,110 @@
+header {
+    padding: 26px 0;
+}
+.header__content {
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        width: 60px;
+        &_link {
+            text-decoration: none;
+            color: black;
+        }
+        &_title {
+            margin: 0;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &_subtitle {
+            margin: 0;
+            font-size: 18px;
+            line-height: 10px;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
+    }
+    nav {
+        .burger{
+            display: none;
+        }
+        #burger{
+            display: none;
+            width: 40px;
+            height: 3px;
+            background-color: #333333;
+            position: relative;
+        }
+        #burger::after{
+            content: '';
+            width: 30px;
+            height: 3px;
+            background-color: #333333;
+            position: absolute;
+            top: 8px;
+            left: 10px;
+
+        }
+        #burger::before{
+            content: '';
+            width: 40px;
+            height: 3px;
+            background-color: #333333;
+            position: absolute;
+            top: -8px;
+            left: 0;
+        }
+        .header__content_menu {
+           display: inline-block;
+            padding: 0;
+            margin: 0;
+            &_item {
+                display: inline-block;
+                list-style: none;
+                margin-right: 122px;
+                &_link {
+                    text-decoration: none;
+                    color: #000000;
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+                &_link:hover {
+                    border-bottom: 1px solid #333333;
+                    font-weight: 900;
+                }
+            }
+            &_item:last-child {
+                margin-right: 0;
+            }
+            .active {
+                border-bottom: 1px solid #333333;
+                font-weight: 900;
+                pointer-events: none;
+            }
+        }
+    }
+    &_theme {
+        width: 54px;
+        height: 30px;
+        background: #F2F2F2;
+        border-radius: 190px;
+        position: relative;
+        cursor: pointer;
+        .round {
+            position: absolute;
+            top: 4px;
+            left: 7px;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #ffffff;
+        }
+        .black{
+            background-color:#333333;
+            left: 25px;
+        }
+    }
+}

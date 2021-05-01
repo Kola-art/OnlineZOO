@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-zoo</title>
+    <link rel="stylesheet" href="pages/land/styles/main.css">
+</head>
+<body>
+    <header id="head" class="darkBg">
+        <div class="header__content">
+            <div class="header__content_logo">
+                <a href="#" class="header__content_logo_link"> <h1 class="header__content_logo_title">ZOO
+                   <p class="header__content_logo_subtitle">online</p></h1>
+                </a>
+            </div>
+            <nav>
+                <div class="burger">
+                    <span id="burger"></span>
+                </div>
+                <ul class="header__content_menu">
+                    <li class="header__content_menu_item active"><a class="header__content_menu_item_link" href="#">About</a></li>
+                    <li class="header__content_menu_item"><a class="header__content_menu_item_link" href="pages/map/index.html">Map</a></li>
+                    <li class="header__content_menu_item"><a class="header__content_menu_item_link" href="pages/pandalive/index.html">Zoos</a></li>
+                    <li class="header__content_menu_item"><a class="header__content_menu_item_link" href="#content">Contact Us</a></li>
+                    <li class="header__content_menu_item"><a class="header__content_menu_item_link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" target="_blank">Design</a></li>
+                </ul>
+            </nav>
+            <div class="header__content_theme" id="change">
+                <div class="round"></div>
+            </div>
+        </div>
+    </header>
+   <section class="watch">
+            <div class="watch__content">
+                <div class="container">
+                   <div class="watch__content_title">    
+                    <h2>Watch your favorite <br>animal online</h2>
+                </div> 
+                    <div class="watch__content_btn">
+                        <button><p class="btn_text">WATCH ONLINE</p></button>
+                    </div>
+                </div>
+                <div class="watch__content_social">
+                    <ul>
+                        <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2012 2.79875 20 6.25 20H13.75C17.2012 20 20 17.2012 20 13.75V6.25C20 2.79875 17.2012 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z" fill="#FEFEFE"/>
+                            <path d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z" fill="#FEFEFE"/>
+                            <path d="M15.3752 5.29148C15.7432 5.29148 16.0415 4.99319 16.0415 4.62523C16.0415 4.25727 15.7432 3.95898 15.3752 3.95898C15.0073 3.95898 14.709 4.25727 14.709 4.62523C14.709 4.99319 15.0073 5.29148 15.3752 5.29148Z" fill="#FEFEFE"/>
+                            </svg></a></li>
+                        <li><a href="#"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 1.92375C19.2563 2.25 18.4637 2.46625 17.6375 2.57125C18.4875 2.06375 19.1363 1.26625 19.4412 0.305C18.6488 0.7775 17.7738 1.11125 16.8412 1.2975C16.0887 0.49625 15.0162 0 13.8462 0C11.5763 0 9.74875 1.8425 9.74875 4.10125C9.74875 4.42625 9.77625 4.73875 9.84375 5.03625C6.435 4.87 3.41875 3.23625 1.3925 0.7475C1.03875 1.36125 0.83125 2.06375 0.83125 2.82C0.83125 4.24 1.5625 5.49875 2.6525 6.2275C1.99375 6.215 1.3475 6.02375 0.8 5.7225C0.8 5.735 0.8 5.75125 0.8 5.7675C0.8 7.76 2.22125 9.415 4.085 9.79625C3.75125 9.8875 3.3875 9.93125 3.01 9.93125C2.7475 9.93125 2.4825 9.91625 2.23375 9.86125C2.765 11.485 4.2725 12.6788 6.065 12.7175C4.67 13.8088 2.89875 14.4662 0.98125 14.4662C0.645 14.4662 0.3225 14.4513 0 14.41C1.81625 15.5813 3.96875 16.25 6.29 16.25C13.835 16.25 17.96 10 17.96 4.5825C17.96 4.40125 17.9538 4.22625 17.945 4.0525C18.7588 3.475 19.4425 2.75375 20 1.92375Z" fill="#FEFEFE"/>
+                            </svg></a></li>
+                        <li><a href="#"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.15 1.575C18.6075 0.61 18.0188 0.4325 16.82 0.365C15.6225 0.28375 12.6112 0.25 10.0025 0.25C7.38875 0.25 4.37625 0.28375 3.18 0.36375C1.98375 0.4325 1.39375 0.60875 0.84625 1.575C0.2875 2.53875 0 4.19875 0 7.12125C0 7.12375 0 7.125 0 7.125C0 7.1275 0 7.12875 0 7.12875V7.13125C0 10.0413 0.2875 11.7138 0.84625 12.6675C1.39375 13.6325 1.9825 13.8075 3.17875 13.8888C4.37625 13.9588 7.38875 14 10.0025 14C12.6112 14 15.6225 13.9587 16.8212 13.89C18.02 13.8087 18.6088 13.6338 19.1513 12.6688C19.715 11.715 20 10.0425 20 7.1325C20 7.1325 20 7.12875 20 7.12625C20 7.12625 20 7.12375 20 7.1225C20 4.19875 19.715 2.53875 19.15 1.575ZM7.5 10.875V3.375L13.75 7.125L7.5 10.875Z" fill="#FEFEFE"/>
+                            </svg></a></li>
+                        <li><a href="#"><svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.8217 10.1784C19.768 10.0883 19.4355 9.36579 17.8353 7.88068C16.1602 6.32557 16.3852 6.57809 18.4029 3.88914C19.6317 2.25152 20.123 1.25145 19.9692 0.823916C19.823 0.416387 18.9192 0.523894 18.9192 0.523894L15.9139 0.541396C15.9139 0.541396 15.6914 0.511393 15.5252 0.610151C15.3639 0.707658 15.2601 0.932674 15.2601 0.932674C15.2601 0.932674 14.7839 2.20027 14.1488 3.27785C12.81 5.55176 12.2737 5.67177 12.0549 5.53051C11.5461 5.20174 11.6736 4.20792 11.6736 3.50286C11.6736 1.29895 12.0074 0.380134 11.0223 0.142616C10.6948 0.0638606 10.4548 0.0113567 9.61848 0.00260608C8.54591 -0.00864474 7.63709 0.00635635 7.1233 0.257625C6.78078 0.425137 6.51701 0.798915 6.67827 0.820166C6.87703 0.846418 7.32707 0.941425 7.56583 1.26645C7.87461 1.68523 7.86336 2.6278 7.86336 2.6278C7.86336 2.6278 8.04087 5.22174 7.44958 5.54426C7.0433 5.76553 6.487 5.31425 5.29317 3.25034C4.68187 2.19402 4.21934 1.02518 4.21934 1.02518C4.21934 1.02518 4.13058 0.807665 3.97182 0.691407C3.77931 0.550146 3.50929 0.505143 3.50929 0.505143L0.651577 0.522644C0.651577 0.522644 0.222795 0.535146 0.0652839 0.721409C-0.0747264 0.887671 0.054033 1.2302 0.054033 1.2302C0.054033 1.2302 2.2917 6.46433 4.82438 9.10327C7.1483 11.5222 9.786 11.3634 9.786 11.3634H10.9811C10.9811 11.3634 11.3424 11.3234 11.5261 11.1247C11.6961 10.9422 11.6899 10.5996 11.6899 10.5996C11.6899 10.5996 11.6661 8.99577 12.4112 8.7595C13.145 8.52698 14.0876 10.3096 15.0864 10.9959C15.8414 11.5147 16.4152 11.4009 16.4152 11.4009L19.0867 11.3634C19.0867 11.3634 20.4843 11.2772 19.8217 10.1784Z" fill="#FEFEFE"/>
+                            </svg>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="watch__content_slider">
+                    <div class="slider_hr"> 
+                        <img src="assets/img/line.png" alt="line">
+                    </div>
+                    <div class="towatch"> 
+                        <img class="towatch_img" src="assets/img/eagleplus.png" alt="animal">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Eagle`s name is Fly Fly. He 
+                            is 4 years old.  Fly Fly is from USA. He loves rabbits.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/eaglelive/index.html"> <span class="watchLink">WATCH ONLINE</span> </a>
+                                <a href="#" class="top"> <span class="donateLink">DONATE</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="towatch"> 
+                        <img class="towatch_img" src="assets/img/panda140.png" alt="animal">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Panda’s name is Bei Bei. He 
+                            is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/pandalive/index.html"> <span class="watchLink">WATCH ONLINE</span> </a>
+                                <a class="top" href="#"> <span class="donateLink">DONATE</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="towatch">
+                        <img class="towatch_img" src="assets/img/gorila140.png" alt="animal">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Gorila`s name is Goro Goro. He 
+                            is 3 years old.  Goro Goro is from Africa. He loves leaves.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/gorilalive/index.html"> <span class="watchLink">WATCH ONLINE</span> </a>
+                                <a href="#" class="top"> <span class="donateLink">DONATE</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="towatch">
+                        <img class="towatch_img" src="assets/img/aligator140.png" alt="animal">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Aligator`s name is Ali. He 
+                            is 1 years old.  Ali is from USA. He loves meat.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/aligatorlive/index.html"> <span class="watchLink">WATCH ONLINE</span> </a>
+                                <a href="#" class="top"> <span class="donateLink">DONATE</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="towatch"> 
+                            <img class="towatch_img" src="assets/img/eagle140.png" alt="animal">
+                            <div class="towatch__card">
+                                <p class="towatch__card_text">Eagle`s name is Fly Fly. He 
+                                is 4 years old.  Fly Fly is from USA. He loves rabbits.</p>
+                                <div class="towatch__card_links">
+                                    <a href="pages/eaglelive/index.html"> <span class="watchLink">WATCH ONLINE</span> </a>
+                                    <a href="#" class="top"> <span class="donateLink">DONATE</span> </a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="slider__roller">
+                        <div class="slider__roller_text">
+                            <p>02/<span>08</span></p>
+                        </div>
+                        <div class="slider__roller_hr">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> 
+    <section class="works darkBg">
+        <div class="container">
+            <div class="works__content">
+                <h2 class="works__content_title titledark">How it works</h2>
+                <p class="works__content_text dark">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects, including providing veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+                <div class="works__content_slider">
+                    <img class="works__content_slider_img" src="assets/img/antelope790.png" alt="antelope">
+                    <div class="slider__roller">
+                        <div class="slider__roller_text">
+                            <p class="dark">01/<span class="dark">04</span></p>
+                        </div>
+                        <div class="slider__roller_hr">
+                            <span class="spandark"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__content_btn">
+                    <button class="works__content_btn_click"><p class="btn_text">WATCH ONLINE</p></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info gray">
+        <div class="container">
+            <div class="info__content">
+                <div class="info__content_card">
+                    <div class="card_img">
+                        <img src="assets/icons/lamp.svg" alt="">
+                    </div>
+                    <div class="card_title">
+                        <h3 class="titledark">What inspiring us?</h3>
+                    </div>
+                    <div class="card_text">
+                    <p class="dark"> As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects.</p>
+                    </div>
+                </div>
+                <div class="info__content_card">
+                    <div class="card_img">
+                        <img src="assets/icons/flag.svg" alt="">
+                    </div>
+                    <div class="card_title">
+                        <h3 class="titledark">Our mission</h3>
+                    </div>
+                    <div class="card_text">
+                    <p class="dark"> Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. </p>
+                    </div>
+                </div>
+                <div class="info__content_card">
+                    <div class="card_img">
+                        <img src="assets/icons/heart.svg" alt="">
+                    </div>
+                    <div class="card_title">
+                        <h3 class="titledark" >What we believe in?</h3>
+                    </div>
+                    <div class="card_text">
+                    <p class="dark"> Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion. </p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <section class="pets darkBg">
+        <div class="container">
+            <div class="pets__title">
+                <h2 class="titledark">Pets in Zoo</h2>
+            </div>
+            <div class="pets__content">
+                <div class="pets__slider">
+                    <div class="pets__slider_slide">
+                        <img class="towatch__card_img" src="assets/img/panda140.png" alt="panda">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Panda’s name is Bei Bei. He 
+                            is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/pandalive/index.html"><span class="watchLink">WATCH ONLINE</span></a>
+                                <a href="#"><span class="donateLink">DONATE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pets__slider_slide">
+                        <img class="towatch__card_img" src="assets/img/eagleplus.png" alt="panda">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Eagle`s name is Fly Fly. He 
+                                is 4 years old.  Fly Fly is from USA. He loves rabbits.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/eaglelive/index.html"><span class="watchLink">WATCH ONLINE</span></a>
+                                <a href="#"><span class="donateLink">DONATE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pets__slider_slide">
+                        <img class="towatch__card_img" src="assets/img/gorilaplus.png" alt="panda">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Gorila`s name is Goro Goro. He 
+                                is 3 years old.  Goro Goro is from Africa. He loves leaves.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/gorilalive/index.html"><span class="watchLink">WATCH ONLINE</span></a>
+                                <a href="#"><span class="donateLink">DONATE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pets__slider_slide">
+                        <img class="towatch__card_img" src="assets/img/aligator140.png" alt="panda">
+                        <div class="towatch__card">
+                            <p class="towatch__card_text">Aligator`s name is Ali. He 
+                                is 1 years old.  Ali is from USA. He loves meat.</p>
+                            <div class="towatch__card_links">
+                                <a href="pages/aligatorlive/index.html"><span class="watchLink">WATCH ONLINE</span></a>
+                                <a href="#"><span class="donateLink">DONATE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pets__slider_btnPrev">
+                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.666298 16.1706L14.0167 29.5207C14.3255 29.8298 14.7376 30 15.1772 30C15.6167 30 16.0289 29.8298 16.3376 29.5207L17.3208 28.5378C17.9605 27.8973 17.9605 26.8564 17.3208 26.2169L6.11016 15.0062L17.3332 3.78314C17.642 3.47412 17.8125 3.06217 17.8125 2.6229C17.8125 2.18315 17.642 1.7712 17.3332 1.46194L16.3501 0.479263C16.0411 0.17024 15.6291 0 15.1896 0C14.7501 0 14.3379 0.17024 14.0291 0.479263L0.666298 13.8416C0.356789 14.1516 0.18679 14.5655 0.187767 15.0055C0.18679 15.4472 0.356789 15.8608 0.666298 16.1706Z" fill="#828282"/>
+                        </svg>
+                    </div>
+                    <div class="pets__slider_btnNext" >
+                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.3337 13.8294L3.98332 0.479264C3.67454 0.170243 3.26235 0 2.82284 0C2.38334 0 1.97114 0.170243 1.66237 0.479264L0.679203 1.46218C0.0394526 2.10267 0.0394526 3.14363 0.679203 3.78314L11.8898 14.9938L0.666764 26.2169C0.357986 26.5259 0.1875 26.9378 0.1875 27.3771C0.1875 27.8168 0.357986 28.2288 0.666764 28.5381L1.64993 29.5207C1.95895 29.8298 2.3709 30 2.81041 30C3.24991 30 3.66211 29.8298 3.97088 29.5207L17.3337 16.1584C17.6432 15.8484 17.8132 15.4345 17.8122 14.9945C17.8132 14.5528 17.6432 14.1392 17.3337 13.8294Z" fill="#828282"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__roller">
+                <div class="slider__roller_text">
+                    <p class="dark" >01/<span class="dark">08</span></p>
+                </div>
+                <div class="slider__roller_hr">
+                    <span class="spandark"></span>
+                </div>
+            </div>
+            <div class="pets_btn">
+                <a class="pets_btn_link" href="pages/map/index.html"><button class="pets_btn_click"><p class="btn_text">Choose your favorite</p></button></a>
+            </div>
+        </div>
+    </section>
+    <section class="feed gray">
+        <div class="container">
+            <div class="feed__title">
+                <h2 class="feed__title_heading titledark">  Pay and feed  </h2>
+                <p class="feed__title_text dark">The opportunity to easily and naturally (but as often as possible) donate to the needs of animals that you like.</p>
+            </div>
+            <div class="feed__content">
+                <div class="feed__content_arr">
+                    <img src="assets/icons/Arrow.svg" alt="arrow">
+                </div>
+                <div class="feed__content_arr2 right">
+                    <img src="assets/icons/Arrow.svg" alt="arrow">
+                </div>
+                <div class="feed__content_card">
+                    <img src="assets/icons/card.svg" alt="Zoo">
+                    <p class="dark">You pay with a VISA card</p>
+                </div>
+                <div class="feed__content_card">
+                    <img src="assets/icons/zoo.svg" alt="Zoo">
+                    <p class="dark" >Payment goes to the Zoo</p>
+                </div>
+                <div class="feed__content_card">
+                    <img src="assets/icons/teddy.svg" alt="Zoo">
+                    <p class="dark" >Panda gets the bamboo</p>
+                </div>
+            </div>
+            <button class="feed_btn_click"><p class="btn_text">Donate</p></button>
+        </div>
+    </section>
+    <section class="testimonials darkBg">
+        <div class="container">
+            <h2 class="testimonials__title titledark">
+                Testimonials
+            </h2>
+            <div class="testimonials__slider">
+                <div class="testimonials__slider_slide none">
+                   <img class="foto" src="assets/img/nastya.png" alt="">
+                   <h5 class="person">Nastya Sidorova</h5>
+                   <p class="feedback">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+               </div>
+
+                <div class="testimonials__slider_slide">
+                    <img class="foto" src="assets/img/vald.png" alt="">
+                    <h5 class="person">Vlad Kim</h5>
+                    <p class="feedback">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+                </div>  
+                <div class="testimonials__slider_btnPrev">
+                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.666298 16.1706L14.0167 29.5207C14.3255 29.8298 14.7376 30 15.1772 30C15.6167 30 16.0289 29.8298 16.3376 29.5207L17.3208 28.5378C17.9605 27.8973 17.9605 26.8564 17.3208 26.2169L6.11016 15.0062L17.3332 3.78314C17.642 3.47412 17.8125 3.06217 17.8125 2.6229C17.8125 2.18315 17.642 1.7712 17.3332 1.46194L16.3501 0.479263C16.0411 0.17024 15.6291 0 15.1896 0C14.7501 0 14.3379 0.17024 14.0291 0.479263L0.666298 13.8416C0.356789 14.1516 0.18679 14.5655 0.187767 15.0055C0.18679 15.4472 0.356789 15.8608 0.666298 16.1706Z" fill="#828282"/>
+                    </svg>
+                </div>
+                <div class="testimonials__slider_btnNext" >
+                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.3337 13.8294L3.98332 0.479264C3.67454 0.170243 3.26235 0 2.82284 0C2.38334 0 1.97114 0.170243 1.66237 0.479264L0.679203 1.46218C0.0394526 2.10267 0.0394526 3.14363 0.679203 3.78314L11.8898 14.9938L0.666764 26.2169C0.357986 26.5259 0.1875 26.9378 0.1875 27.3771C0.1875 27.8168 0.357986 28.2288 0.666764 28.5381L1.64993 29.5207C1.95895 29.8298 2.3709 30 2.81041 30C3.24991 30 3.66211 29.8298 3.97088 29.5207L17.3337 16.1584C17.6432 15.8484 17.8132 15.4345 17.8122 14.9945C17.8132 14.5528 17.6432 14.1392 17.3337 13.8294Z" fill="#828282"/>
+                    </svg>
+                </div>
+                <div class="testimonials__slider_zip">
+                    <div class="slider__roller">
+                        <div class="slider__roller_text">
+                            <p class="dark">01/<span class="dark">08</span></p>
+                        </div>
+                        <div class="slider__roller_hr">
+                            <span class="spandark"></span>
+                        </div>
+                    </div>
+                    <div class="testimonials_btn">
+                        <button class="testimonials_btn_click"><p class="btn_text">Leave feedback</p></button>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <section class="map gray">
+        <div class="container">
+            <h4 class="map__title titledark">Map</h4>
+            <div class="map__content darknes">
+                <div class="map__content_eagle">
+                    <a href="pages/eaglelive/index.html">  
+                        <svg width="68" height="94" viewBox="0 0 68 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.034 0.496094C15.8009 0.496094 0.967773 15.331 0.967773 33.5663C0.967773 51.2064 31.1981 91.3966 32.4859 93.1007C32.8477 93.5871 33.4274 93.871 34.0342 93.871C34.6411 93.871 35.2208 93.5871 35.5826 93.1007C36.8701 91.3966 67.1007 51.2065 67.1007 33.5663C67.1003 15.331 52.2671 0.496094 34.034 0.496094ZM34.034 51.0741C24.3826 51.0741 16.5283 43.219 16.5283 33.5663C16.5283 23.9137 24.3826 16.0585 34.034 16.0585C43.6855 16.0585 51.5397 23.9137 51.5397 33.5663C51.5397 43.219 43.6855 51.0741 34.034 51.0741Z" fill="url(#paint0_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="-11.3805" y1="0.496093" x2="83.379" y2="20.869" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4BD8B5"/>
+                        <stop offset="1" stop-color="#49D6DF"/>
+                        </linearGradient>
+                        </defs>
+                        </svg> 
+                    <img id="eagle" src="assets/img/eagleround.png" alt="animal"></a>
+                    <div class="map__content_eagle_card"> 
+                        <img class="map__content_eagle_card_img" src="assets/img/eagleround.png" alt="animal">
+                        <div class="map__content_eagle_card_text">
+                        <h4 class="map__content_eagle_card_text_title">West End Bald Eagle</h4>
+                        <p class="map__content_eagle_card_text_par">Region: <span>on an island near Los Angeles</span></p>
+                        <p class="map__content_eagle_card_text_par">population: <span>more than 270 pairs in 2013</span></p>
+                        </div>
+                    </div>       
+                </div>
+               <div class="map__content_aligator">
+                    <a href="pages/aligatorlive/index.html">  
+                        <svg width="68" height="94" viewBox="0 0 68 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.034 0.496094C15.8009 0.496094 0.967773 15.331 0.967773 33.5663C0.967773 51.2064 31.1981 91.3966 32.4859 93.1007C32.8477 93.5871 33.4274 93.871 34.0342 93.871C34.6411 93.871 35.2208 93.5871 35.5826 93.1007C36.8701 91.3966 67.1007 51.2065 67.1007 33.5663C67.1003 15.331 52.2671 0.496094 34.034 0.496094ZM34.034 51.0741C24.3826 51.0741 16.5283 43.219 16.5283 33.5663C16.5283 23.9137 24.3826 16.0585 34.034 16.0585C43.6855 16.0585 51.5397 23.9137 51.5397 33.5663C51.5397 43.219 43.6855 51.0741 34.034 51.0741Z" fill="url(#paint0_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="-11.3805" y1="0.496093" x2="83.379" y2="20.869" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4BD8B5"/>
+                        <stop offset="1" stop-color="#49D6DF"/>
+                        </linearGradient>
+                        </defs>
+                        </svg> 
+                    <img id="aligator" src="assets/img/aligatorround.png" alt="animal"></a>
+                    <div class="map__content_aligator_card"> 
+                        <img class="map__content_aligator_card_img" src="assets/img/aligatorround.png" alt="animal">
+                        <div class="map__content_aligator_card_text">
+                        <h4 class="map__content_aligator_card_text_title">Alligators</h4>
+                        <p class="map__content_aligator_card_text_par">Region: <span>Alligators can be found in slow-moving rivers, ponds, lakes and swamps. </span></p>
+                        <p class="map__content_aligator_card_text_par">population: <span>Roughly 1.25 million </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map__content_gorila">
+                    <a href="pages/gorilalive/index.html">  
+                        <svg width="68" height="94" viewBox="0 0 68 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.034 0.496094C15.8009 0.496094 0.967773 15.331 0.967773 33.5663C0.967773 51.2064 31.1981 91.3966 32.4859 93.1007C32.8477 93.5871 33.4274 93.871 34.0342 93.871C34.6411 93.871 35.2208 93.5871 35.5826 93.1007C36.8701 91.3966 67.1007 51.2065 67.1007 33.5663C67.1003 15.331 52.2671 0.496094 34.034 0.496094ZM34.034 51.0741C24.3826 51.0741 16.5283 43.219 16.5283 33.5663C16.5283 23.9137 24.3826 16.0585 34.034 16.0585C43.6855 16.0585 51.5397 23.9137 51.5397 33.5663C51.5397 43.219 43.6855 51.0741 34.034 51.0741Z" fill="url(#paint0_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="-11.3805" y1="0.496093" x2="83.379" y2="20.869" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4BD8B5"/>
+                        <stop offset="1" stop-color="#49D6DF"/>
+                        </linearGradient>
+                        </defs>
+                        </svg> 
+                    <img id="gorila" src="assets/img/gorilaround.png" alt="animal"></a>
+                    <div class="map__content_gorila_card"> 
+                        <img class="map__content_gorila_card_img" src="assets/img/gorilaround.png" alt="animal">
+                        <div class="map__content_gorila_card_text">
+                        <h4 class="map__content_gorila_card_text_title">GRACE Gorilla</h4>
+                        <p class="map__content_gorila_card_text_par">Region: <span>Gorillas primarily inhabit tropical forest habitats </span></p>
+                        <p class="map__content_gorila_card_text_par">population: <span>Over 100,000 western lowland gorillas </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map__content_panda">
+                    <a href="pages/pandalive/index.html">  
+                        <svg width="68" height="94" viewBox="0 0 68 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.034 0.496094C15.8009 0.496094 0.967773 15.331 0.967773 33.5663C0.967773 51.2064 31.1981 91.3966 32.4859 93.1007C32.8477 93.5871 33.4274 93.871 34.0342 93.871C34.6411 93.871 35.2208 93.5871 35.5826 93.1007C36.8701 91.3966 67.1007 51.2065 67.1007 33.5663C67.1003 15.331 52.2671 0.496094 34.034 0.496094ZM34.034 51.0741C24.3826 51.0741 16.5283 43.219 16.5283 33.5663C16.5283 23.9137 24.3826 16.0585 34.034 16.0585C43.6855 16.0585 51.5397 23.9137 51.5397 33.5663C51.5397 43.219 43.6855 51.0741 34.034 51.0741Z" fill="url(#paint0_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="-11.3805" y1="0.496093" x2="83.379" y2="20.869" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4BD8B5"/>
+                        <stop offset="1" stop-color="#49D6DF"/>
+                        </linearGradient>
+                        </defs>
+                        </svg> 
+                    <img id="panda" src="assets/img/pandaround.png" alt="animal"></a>
+                    <div class="map__content_panda_card"> 
+                        <img class="map__content_panda_card_img" src="assets/img/pandaround.png" alt="animal">
+                        <div class="map__content_panda_card_text">
+                        <h4 class="map__content_panda_card_text_title">Panda</h4>
+                        <p class="map__content_panda_card_text_par">Region: <span>Temperate forests high in the mountains of southwest China </span></p>
+                        <p class="map__content_panda_card_text_par">population: <span>About 1,590 individuals</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map__btn">
+                   <a href="pages/pandalive/index.html"> <button class="map__btn_click"> <p class="texts">WATCH online</p> </button> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__content" id="content">
+            <div class="footer__content_heading">
+                <div class="title">
+                    <a class="footer__content_heading_link" href="#head">
+                        <h2 class="footer__content_heading_title">ZOO</h2>
+                        <span class="footer__content_heading_subtitle">online</span>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="footer__content_heading_menu">
+                        <li class="footer__content_heading_menu_item"><a href="#" class="footer__content_heading_menu_item_link">About</a></li>
+                        <li class="footer__content_heading_menu_item"><a href="pages/map/index.html" class="footer__content_heading_menu_item_link">Map</a></li>
+                        <li class="footer__content_heading_menu_item"><a href="pages/pandalive/index.html" class="footer__content_heading_menu_item_link">Zoos</a></li>
+                    </ul>
+                </nav>
+                <div class="footer_btn">
+                    <button class="footer_btn_click"><p class="btn_texts">donate for volunteers</p></button>
+                </div>
+            </div>
+            <div class="footer__content_main">
+                <div class="footer_form">
+                    <h5 class="form-heading">Contact us</h5>
+                    <form action="#" id="form">
+                        <input type="text" class="footer_form_input" id="name" placeholder="Name" required>
+                        <input type="email" class="footer_form_input" id="email" placeholder="Email" required>
+                        <label for="area" id="label">Please enter your message</label>
+                        <textarea class="footer_form_textarea" maxlength="280" id="area" name="text"></textarea>
+                        <input type="checkbox" name="check" id="check" required>
+                        <label for="check" id="checklabel"> I agree to the processing of Personal Data </label>
+                        <input type="submit" value="Send" class="footer_form_submit"></input>
+                    </form>
+                </div>
+                <div class="footer__social">
+                    <h5 class="footer__social_title">ZOO Online Centre</h5>
+                    <p class="footer__social_adres">132, Address District, Street Open Daily 10:00 am - 5:00 pm</p>
+                    <p class="footer__social_tel">T<a href="tel:+7021633433" class="footer__social_tel_cal">(702) 163-3433 </a> <a href="mailto:zoo.online@gmail.com" class="footer__social_tel_mail">zoo.online@gmail.com</a></p>
+                    <div class="footer__social_links">
+                        <ul class="footer__social_links_items">
+                            <li class="footer__social_links_items_item"><a href="#" class="footer__social_links_items_item_link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2012 2.79875 20 6.25 20H13.75C17.2012 20 20 17.2012 20 13.75V6.25C20 2.79875 17.2012 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z" fill="#FEFEFE"/>
+                                <path d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z" fill="#FEFEFE"/>
+                                <path d="M15.3752 5.29148C15.7432 5.29148 16.0415 4.99319 16.0415 4.62523C16.0415 4.25727 15.7432 3.95898 15.3752 3.95898C15.0073 3.95898 14.709 4.25727 14.709 4.62523C14.709 4.99319 15.0073 5.29148 15.3752 5.29148Z" fill="#FEFEFE"/>
+                                </svg></a>
+                            </li>
+                            <li class="footer__social_links_items_item"><a href="#" class="footer__social_links_items_item_link"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 1.92375C19.2563 2.25 18.4637 2.46625 17.6375 2.57125C18.4875 2.06375 19.1363 1.26625 19.4412 0.305C18.6488 0.7775 17.7738 1.11125 16.8412 1.2975C16.0887 0.49625 15.0162 0 13.8462 0C11.5763 0 9.74875 1.8425 9.74875 4.10125C9.74875 4.42625 9.77625 4.73875 9.84375 5.03625C6.435 4.87 3.41875 3.23625 1.3925 0.7475C1.03875 1.36125 0.83125 2.06375 0.83125 2.82C0.83125 4.24 1.5625 5.49875 2.6525 6.2275C1.99375 6.215 1.3475 6.02375 0.8 5.7225C0.8 5.735 0.8 5.75125 0.8 5.7675C0.8 7.76 2.22125 9.415 4.085 9.79625C3.75125 9.8875 3.3875 9.93125 3.01 9.93125C2.7475 9.93125 2.4825 9.91625 2.23375 9.86125C2.765 11.485 4.2725 12.6788 6.065 12.7175C4.67 13.8088 2.89875 14.4662 0.98125 14.4662C0.645 14.4662 0.3225 14.4513 0 14.41C1.81625 15.5813 3.96875 16.25 6.29 16.25C13.835 16.25 17.96 10 17.96 4.5825C17.96 4.40125 17.9538 4.22625 17.945 4.0525C18.7588 3.475 19.4425 2.75375 20 1.92375Z" fill="#FEFEFE"/>
+                                </svg></a>
+                            </li>
+                            <li class="footer__social_links_items_item"><a href="#" class="footer__social_links_items_item_link"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.15 1.575C18.6075 0.61 18.0188 0.4325 16.82 0.365C15.6225 0.28375 12.6112 0.25 10.0025 0.25C7.38875 0.25 4.37625 0.28375 3.18 0.36375C1.98375 0.4325 1.39375 0.60875 0.84625 1.575C0.2875 2.53875 0 4.19875 0 7.12125C0 7.12375 0 7.125 0 7.125C0 7.1275 0 7.12875 0 7.12875V7.13125C0 10.0413 0.2875 11.7138 0.84625 12.6675C1.39375 13.6325 1.9825 13.8075 3.17875 13.8888C4.37625 13.9588 7.38875 14 10.0025 14C12.6112 14 15.6225 13.9587 16.8212 13.89C18.02 13.8087 18.6088 13.6338 19.1513 12.6688C19.715 11.715 20 10.0425 20 7.1325C20 7.1325 20 7.12875 20 7.12625C20 7.12625 20 7.12375 20 7.1225C20 4.19875 19.715 2.53875 19.15 1.575ZM7.5 10.875V3.375L13.75 7.125L7.5 10.875Z" fill="#FEFEFE"/>
+                                </svg></a>
+                            </li>
+                            <li class="footer__social_links_items_item"><a href="#" class="footer__social_links_items_item_link"><svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8217 10.1784C19.768 10.0883 19.4355 9.36579 17.8353 7.88068C16.1602 6.32557 16.3852 6.57809 18.4029 3.88914C19.6317 2.25152 20.123 1.25145 19.9692 0.823916C19.823 0.416387 18.9192 0.523894 18.9192 0.523894L15.9139 0.541396C15.9139 0.541396 15.6914 0.511393 15.5252 0.610151C15.3639 0.707658 15.2601 0.932674 15.2601 0.932674C15.2601 0.932674 14.7839 2.20027 14.1488 3.27785C12.81 5.55176 12.2737 5.67177 12.0549 5.53051C11.5461 5.20174 11.6736 4.20792 11.6736 3.50286C11.6736 1.29895 12.0074 0.380134 11.0223 0.142616C10.6948 0.0638606 10.4548 0.0113567 9.61848 0.00260608C8.54591 -0.00864474 7.63709 0.00635635 7.1233 0.257625C6.78078 0.425137 6.51701 0.798915 6.67827 0.820166C6.87703 0.846418 7.32707 0.941425 7.56583 1.26645C7.87461 1.68523 7.86336 2.6278 7.86336 2.6278C7.86336 2.6278 8.04087 5.22174 7.44958 5.54426C7.0433 5.76553 6.487 5.31425 5.29317 3.25034C4.68187 2.19402 4.21934 1.02518 4.21934 1.02518C4.21934 1.02518 4.13058 0.807665 3.97182 0.691407C3.77931 0.550146 3.50929 0.505143 3.50929 0.505143L0.651577 0.522644C0.651577 0.522644 0.222795 0.535146 0.0652839 0.721409C-0.0747264 0.887671 0.054033 1.2302 0.054033 1.2302C0.054033 1.2302 2.2917 6.46433 4.82438 9.10327C7.1483 11.5222 9.786 11.3634 9.786 11.3634H10.9811C10.9811 11.3634 11.3424 11.3234 11.5261 11.1247C11.6961 10.9422 11.6899 10.5996 11.6899 10.5996C11.6899 10.5996 11.6661 8.99577 12.4112 8.7595C13.145 8.52698 14.0876 10.3096 15.0864 10.9959C15.8414 11.5147 16.4152 11.4009 16.4152 11.4009L19.0867 11.3634C19.0867 11.3634 20.4843 11.2772 19.8217 10.1784Z" fill="#FEFEFE"/>
+                                </svg>
+                                </a>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+            <hr class="footerhr">
+            <p class="author" title="Online Zoo, Yem Digital, Rolling Scopes School" >©Artem Kolodka</p>
+            <p class="school" title="Online Zoo, Yem Digital, Rolling Scopes School">©RSSchool - 2021</p>
+        </div>
+    </footer> 
+</body>
+<script src="pages/land/script/script.js"></script>
+</html>

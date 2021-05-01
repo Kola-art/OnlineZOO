@@ -1,0 +1,133 @@
+.testimonials {
+    background-color: $whiteslider-color;
+    padding: 100px 0;
+    &__title{
+        margin: 0;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $titleonwhite;
+    }
+    &__slider {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-wrap: wrap;
+        &_slide {
+            width: 585px;
+            height: 310px;
+            box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.1);
+            border-radius: 5px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .foto {
+                width: 68px;
+                height: 68px;
+            }
+            .person {
+                margin: 17px 0 0 0;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 23px;
+                color: $titleonwhite;
+            }
+            .feedback {
+                width: 440px;
+                margin: 17px auto 0 auto;
+                font-size: 14px;
+                line-height: 16px;
+                color: $textonwhite;
+            }
+        }
+        &_btnPrev {
+            position: absolute;
+            top: 155px;
+            left: -40px;
+        }
+        &_btnPrev:hover {
+            cursor: pointer;
+            svg path{
+                fill: #333333;
+            }
+        }
+        &_btnNext {
+            position: absolute;
+            top: 155px;
+            right: -40px;
+        }
+        &_btnNext:hover {
+            cursor: pointer;
+            svg path{
+                fill: #333333;
+            }
+        }  
+        &_zip {
+            margin: 40px auto 0 auto;
+            .slider__roller {
+                margin: 0 auto;
+                text-align: center;
+                &_text {
+                    font-size: 24px;
+                    line-height: 28px;
+                    font-weight: 900;
+                    color: $titleonwhite;
+                    p { 
+                        margin: 0;
+                    }    
+                    span {
+                        color: $spanwhitecolor;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                }
+                &_hr {
+                    margin: 11px auto 0 auto;
+                    width:245px;
+                    height:5px;
+                    background-color:rgba(189, 189, 189, 0.57);
+                    position: relative;
+                    cursor: pointer;
+                    span {
+                        width: 30px;
+                        height: 10px;
+                        background-color:#333333;
+                        position: absolute;
+                        top: -3px;
+                        left: 0px;
+                    }
+                }
+            }
+            .testimonials_btn {
+                margin-top: 30px;
+                &_click {
+                    width: 245px;
+                    height: 55px;
+                    background-color: #4BD8B5;
+                    border:none;
+                    padding: 0;
+                    cursor: pointer;
+                    border-radius: 3px;
+                }
+                .btn_text {
+                    margin: 0;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                &_click:hover {
+                    background-color: #4ba0d8;
+                }
+            }
+        }
+    }
+    
+}

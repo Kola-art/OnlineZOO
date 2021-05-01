@@ -1,0 +1,306 @@
+.map {
+    padding: 100px 0;
+    background-color: $graylight-color;
+    &__title {
+        text-align: center;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        color: $titleonwhite;
+        margin: 0;
+    }
+    &__content.darknes{
+        width: 1200px;
+        height: 500px;
+        background-image: url('../../../assets/img/map.svg');
+        margin: 60px auto 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content.gray{
+        width: 1200px;
+        height: 500px;
+        background-image: url('../../../assets/img/mapgray.svg');
+        margin: 60px auto 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content {
+        width: 1200px;
+        height: 500px;
+        margin: 60px auto 0 auto;
+        display: flex;
+        position: relative;
+        &_eagle {
+            position: absolute;
+            top: 62px;
+            left: 125px;
+            transition: 2s;
+            #eagle {
+                width: 42px;
+                height: 42px;
+                position: absolute;
+                top: 12px;
+                left: 13px;
+            }
+            &_card {
+                display: none;
+                width: 380px;
+                height: 140px;
+                position: absolute;
+                top: 140px;
+                left: -45px;
+                background-color: rgb(204, 203, 203);
+                padding: 10px;
+                align-items: center;
+                border: 2px solid gray;
+                border-radius: 7px;
+                &_img {
+                    width: 70px;
+                    height: 70px;
+                }
+                &_text {
+                    text-align: left;
+                    margin-left: 15px;
+                    &_title { 
+                        margin: 0;
+                        font-weight: 900;
+                        font-size: 17px;
+                        line-height: 10px;
+                        color: $titleonwhite;
+                    }
+                    &_par {
+                        margin: 10px 0 0 0;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: $textonwhite;
+                        span {
+                            font-weight: 400;
+                            color: $spanwhitecolor;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+        &_eagle:hover {
+            svg path {
+                fill: #EB5757;
+            }
+            .map__content_eagle_card {
+                display: flex;
+            }
+        }
+        &_aligator {
+            position: absolute;
+            top: 111px;
+            left: 247px;
+            #aligator {
+                width: 42px;
+                height: 42px;
+                position: absolute;
+                top: 12px;
+                left: 13px;
+            }
+            &_card {
+                display: none;
+                width: 380px;
+                height: 140px;
+                position: absolute;
+                top: 140px;
+                left: -45px;
+                background-color: rgb(204, 203, 203);
+                padding: 10px;
+                align-items: center;
+                border: 2px solid gray;
+                border-radius: 7px;
+                &_img {
+                    width: 70px;
+                    height: 70px;
+                }
+                &_text {
+                    text-align: left;
+                    margin-left: 15px;
+                    &_title {
+                        margin: 0;
+                        font-weight: 900;
+                        font-size: 17px;
+                        line-height: 10px;
+                        color: $titleonwhite;
+                    }
+                    &_par {
+                        margin: 10px 0 0 0;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: $textonwhite;
+                        span{
+                            font-weight: 400;
+                            color: $spanwhitecolor;
+                        }
+                    }
+                }
+
+            }
+        }
+        &_aligator:hover {
+            svg path {
+                fill: #EB5757;
+            }
+            .map__content_aligator_card {
+                display: flex;
+            }
+        }
+        &_gorila {
+            position: absolute;
+            top: 195px;
+            left: 573px;
+            #gorila {
+                width: 42px;
+                height: 42px;
+                position: absolute;
+                top: 12px;
+                left: 13px;
+            }
+            &_card {
+                display: none;
+                width: 380px;
+                height: 140px;
+                position: absolute;
+                top: 140px;
+                left: -45px;
+                background-color: rgb(204, 203, 203);
+                padding: 10px;
+                align-items: center;
+                border: 2px solid gray;
+                border-radius: 7px;
+                &_img {
+                    width: 70px;
+                    height: 70px;
+                }
+                &_text {
+                    text-align: left;
+                    margin-left: 15px;
+                    &_title {
+                        margin: 0;
+                        font-weight: 900;
+                        font-size: 17px;
+                        line-height: 10px;
+                        color: $titleonwhite;
+                    }
+                    &_par {
+                        margin: 10px 0 0 0;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: $textonwhite;
+                        span {
+                            font-weight: 400;
+                            color: $spanwhitecolor;
+                        }
+                    }
+                }
+
+            }
+        }
+        &_gorila:hover {
+            svg path {
+                fill: #EB5757;
+            }
+            .map__content_gorila_card {
+                display: flex;
+            }
+        }
+        &_panda {
+            position: absolute;
+            top: 87px;
+            right: 221px;
+            #panda {
+                width: 42px;
+                height: 42px;
+                position: absolute;
+                top: 12px;
+                left: 13px;
+            }
+            &_card {
+                display: none;
+                width: 380px;
+                height: 140px;
+                position: absolute;
+                top: 140px;
+                left: -45px;
+                background-color: rgb(204, 203, 203);
+                padding: 10px;
+                align-items: center;
+                border: 2px solid gray;
+                border-radius: 7px;
+                &_img {
+                    width: 70px;
+                    height: 70px;
+                }
+                &_text {
+                    text-align: left;
+                    margin-left: 15px;
+                    &_title {
+                        margin: 0;
+                        font-weight: 900;
+                        font-size: 17px;
+                        line-height: 10px;
+                        color: $titleonwhite;
+                    }
+                    &_par {
+                        margin: 10px 0 0 0;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: $textonwhite;
+                        span {
+                            font-weight: 400;
+                            color: $spanwhitecolor;
+                        }
+                    }
+                }
+
+            }
+        }
+        &_panda:hover {
+            svg path {
+                fill: #EB5757;
+            }
+            .map__content_panda_card {
+                display: flex;
+            }
+        }
+    }
+    &__btn {
+        margin-top: 35px;
+        text-align: center;
+        &_click {
+            width: 245px;
+            height: 55px;
+            background-color: #4BD8B5;
+            border:none;
+            padding: 0;
+            cursor: pointer;
+            border-radius: 3px;
+            .texts {
+                margin: 0 17px 0 49px;
+                display: inline-block;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                position: relative;
+            }
+            .texts::before {
+                content: url('../../../assets/icons/playbtn.svg');
+                position: absolute;
+                top: -5px;
+                left: -40px;
+            }
+        }
+        button:hover {
+            background-color: #4ba0d8;
+        }
+        
+    }
+}

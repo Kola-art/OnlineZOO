@@ -1,0 +1,208 @@
+.watch {
+    padding: 200px 0 110px 0;
+    background-image: url('../../../assets/img/watchbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    &__content {
+        position: relative;
+        max-width: 1620px;
+        margin: 0 auto;
+        &_title {
+            h2 {
+                text-align: left;
+                margin: 0;
+                font-weight: 900;
+                font-size: 89px;
+                line-height: 104px;
+                color: #FEFEFE;
+            }
+        }
+        &_btn {
+            margin-top: 40px;
+            button {
+                width: 245px;
+                height: 55px;
+                background-color: #4BD8B5;
+                border:none;
+               padding: 0;
+               cursor: pointer;
+               border-radius: 3px;
+            }
+            .btn_text {
+                margin: 0;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                position: relative;
+                margin-left: 45px;
+            }
+            .btn_text::before {
+                content: url('../../../assets/icons/playbtn.svg');
+                position: absolute;
+                top: -7px;
+                left: -20px;
+            }
+            button:hover {
+                background-color: #4ba0d8;
+            }
+        }
+        &_social {
+            margin-top: 216px;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style-type: none;
+                    margin-top: 15px;
+                }
+                li:first-child {
+                    margin-top: 0;
+                }
+            }
+            a:hover svg path {
+                fill:#4ba0d8; 
+                
+            }
+        }
+        &_slider {
+            width: 1150px;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            right: -275px;
+            bottom: 140px;
+            .towatch {
+                text-align: center;
+                position: relative;
+                z-index: 3;
+                height: 203px;
+                width: 140px;
+                &_img {
+                    width: 100%;
+                }
+                &__card {
+                    position: absolute;
+                    bottom: 10px;
+                    display: none;
+                    &_text {
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                        margin: 0;
+                    }
+                    &_links {
+                        margin-top: 35px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        a {
+                            text-decoration: none;
+                        }
+                        .watchLink {
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 9px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        position: relative;
+                        }
+                        .watchLink::before {
+                            content: url('../../../assets/icons/smalPlay.svg');
+                            position:absolute;
+                            top: -30px;
+                            left: 22px;
+                        }
+                        .donateLink {
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 9px;
+                            line-height: 14px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            position: relative;
+                        }
+                        .donateLink::before {
+                            position:absolute;
+                            top: -30px;
+                            left: 7px;
+                            content: url('../../../assets/icons/smallDonate.svg');
+                        }
+                    }
+                }
+                
+                
+            }
+            .towatch:hover {
+               transform: scale(1.7);
+               border-radius: 15px;
+               transition: 1s;
+               .towatch__card {
+                    display: block;
+                        .watchLink:hover {
+                        color:#4BD8B5;
+                        &::before{
+                        content: url('../../../assets/icons/smalPlayhover.svg');
+                        }
+                    }
+                    .donateLink:hover { 
+                        color:#4BD8B5;
+                        &::before{
+                        content: url('../../../assets/icons/smallDonatehover.svg');
+                        }
+                    }
+               }
+            }
+            .slider_hr {
+                z-index: 2;
+                position: absolute;
+                bottom: 100px;
+                left: -70px; 
+            }
+            .slider__roller {
+                position: absolute;
+                bottom: -140px;
+                left: 224px;
+                text-align: center;
+                &_text {
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin: 0;
+                    color: #FEFEFE;
+                    p {
+                        margin: 0;
+                    }
+                    span {
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #828282;
+                    }
+                }
+                &_hr {
+                    cursor: pointer;
+                    margin-top: 15px;
+                    width: 245px;
+                    height: 5px;
+                    background-color: rgba(189, 189, 189, 0.57);
+                    position: relative;
+                    span {
+                        position: absolute;
+                        top: -2px;
+                        left: 30px;
+                        display:block;
+                        width: 30px;
+                        height: 10px;
+                        background-color: #fefefe;
+                    }
+                }
+            }
+        }
+    }
+}
